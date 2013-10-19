@@ -17,11 +17,11 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="CyanFox/android_build" groups="pdk" >
+  <project path="build" name="S2Heros/build-1" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="CyanFox/android" />
+  <project path="android" name="cameron581/android" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
@@ -418,20 +418,13 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
 
-  <project path="vendor/acer" name="TheMuppets/proprietary_vendor_acer" revision="cm-10.2" />
-  <project path="vendor/asus" name="TheMuppets/proprietary_vendor_asus" revision="cm-10.2" />
-  <project path="vendor/google" name="TheMuppets/proprietary_vendor_google" revision="cm-10.2" />
-  <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" revision="cm-10.2" />
-  <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" revision="cm-10.2" />
-  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" revision="cm-10.2" />
   <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" revision="cm-10.2" />
-  <project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" revision="cm-10.2" />
-  <project path="vendor/broadcom" name="TheMuppets/proprietary_vendor_broadcom" revision="cm-10.2" />
-  <project path="vendor/elan" name="TheMuppets/proprietary_vendor_elan" revision="cm-10.2" />
-  <project path="vendor/imgtec" name="TheMuppets/proprietary_vendor_imgtec" revision="cm-10.2" />
-  <project path="vendor/invensense" name="TheMuppets/proprietary_vendor_invensense" revision="cm-10.2" />
-  <project path="vendor/nvidia" name="TheMuppets/proprietary_vendor_nvidia" revision="cm-10.2" />
-  <project path="vendor/nxp" name="TheMuppets/proprietary_vendor_nxp" revision="cm-10.2" />
-  <project path="vendor/widevine" name="TheMuppets/proprietary_vendor_widevine" revision="cm-10.2" />
-  <project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" revision="cm-10.2" />
+  <project name="CyanogenMod/android_device_samsung_hercules" path="device/samsung/hercules" remote="github" revision="cm-10.2" />
+  <project name="CyanogenMod/android_device_samsung_skyrocket" path="device/samsung/skyrocket" remote="github" revision="cm-10.2" />
+  <project name="CyanogenMod/android_device_samsung_celox-common" path="device/samsung/celox-common" remote="github" revision="cm-10.2" />
+  <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-10.2" />
+  <project name="Cl3Kener/HERC-KERNELS" path="kernel/samsung/msm8660-common" remote="gh" revision="diablo-jb43" />
+  <project name="thdDude/android_device_samsung_msm8660-common" path="device/samsung/msm8660-common" remote="gh" revision="cm-10.2" />
+  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-10.2" />
+<project path="prebuilts/gcc/linux-x86/arm/Linaro-4.8" name="Cl3Kener/LINARO" remote="gh" revision="master" />
 </manifest>
