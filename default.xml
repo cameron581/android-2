@@ -6,8 +6,7 @@
            review="android-review.googlesource.com" />
 
   <remote  name="github"
-           fetch=".."
-           review="review.cyanogenmod.org" />
+           fetch="https://github.com/"
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -278,7 +277,6 @@
   <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" />
   <project path="frameworks/mff" name="CyanogenMod/android_frameworks_mff" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
-  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" groups="pdk" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
   <project path="frameworks/opt/carddav" name="CyanogenMod/android_frameworks_opt_carddav" />
   <project path="frameworks/opt/colorpicker" name="CyanogenMod/android_frameworks_opt_colorpicker" />
@@ -470,4 +468,13 @@
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
+  <project name="Dazzozo/android_hardware_atheros_wifi_ath6kl-huawei" path="hardware/atheros/wifi/ath6kl-huawei" revision="master"/>
+  <project name="Dazzozo/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" revision="jellybean-mr2" />
+  <project name="Dazzozo/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" revision="jellybean-mr2" />
+  <project name="CMFusion2/android_device_huawei_msm7x27a-common" path="device/huawei/msm7x27a-common" revision="cm-11.0" />
+  <project name="CMFusion2/android_device_huawei_u8665" path="device/huawei/u8665" revision="cm-11.0" />
+  <project name="CMFusion2/proprietary_vendor_huawei" path="vendor/huawei" revision="kitkat" />
+  <project path="kernel/huawei/huawei-kernel-3.4" name="Dazzozo/huawei-kernel-3.4" remote="github" revision="kitkat" />
+  <project name="Dazzozo/android_external_webkit" path="external/webkit" remote="github" revision="kitkat" />
+  <project name="Dazzozo/android_frameworks_native" path="frameworks/native" revision="cm-11.0" />
 </manifest>
